@@ -106,13 +106,13 @@ main .founder {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10em;
+  padding: 5em;
   padding-top: 10em;
   padding-bottom: 5em;
 }
 
 .showcase img {
-  height: 15em;
+  height: 20em;
 }
 
 .showcase div {
