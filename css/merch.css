@@ -99,6 +99,7 @@ h2 {
 .purchaseables img {
   max-width: 15rem;
   max-height: 15rem;
+  box-shadow: 10px 10px 2px #FFD7DF;
 }
 
 .purchaseables ul li {

@@ -2,6 +2,11 @@
   box-sizing: inherit;
 }
 
+body {
+  background-image: url("images/backgroundpaper.svg");
+  background-repeat: repeat;
+}
+
 header {
   background-color: #DB404B;
   padding-right: 2rem;
@@ -113,6 +118,7 @@ main .founder {
 
 .showcase img {
   height: 20em;
+  box-shadow: 10px 10px 2px #FFD7DF;
 }
 
 .showcase div {
