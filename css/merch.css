@@ -75,8 +75,15 @@ nav ul li a:hover {
   font-family: stymie, serif;
   font-weight: 500;
   font-style: normal;
+  margin: auto;
 }
 
+.hero-text p {
+  font-family: stymie,serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: auto;
+}
 
 h2 {
   font-family: alfarn, sans-serif;
