@@ -47,3 +47,67 @@ nav ul li a:hover {
   border: 3px solid #FFFF;
   color: #FF809B;
 }
+
+footer {
+  background-color: #DB404B;
+  padding-right: 5rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.125rem;
+}
+
+footer .footerlogo {
+  max-width: 5%;
+  max-height: 5%;
+  padding: 2em;
+  padding-bottom: 3em;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer ul img {
+  max-height: 3em;
+}
+
+footer ul li {
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  padding: 1em;
+  border: 5px solid #DB404B;
+  border-radius: 1em;
+}
+
+footer ul li:hover {
+  border: 5px solid #FF809B;
+  border-radius: 3rem;
+  background-color: #FF809B;
+  padding: 1em;
+}
+
+.logowords {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logowords p {
+  color: #FFFF;
+  font-family: stymie,serif;
+  font-weight: 400;
+  font-style: normal;
+}
