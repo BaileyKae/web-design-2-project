@@ -103,10 +103,6 @@ main .founder {
   font-size: 1.5em;
 }
 
-.foundertxt {
-
-}
-
 .showcase {
   display: flex;
   flex-direction: row;
