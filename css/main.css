@@ -79,7 +79,7 @@ nav ul li a:hover {
   font-style: normal;
 }
 
-main .founder {
+.founder {
   padding-top: 10rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
