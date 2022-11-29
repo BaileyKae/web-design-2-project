@@ -519,8 +519,8 @@ h5 {
   gap: 2.5em 1.5em;
   padding-top: 5em;
   padding-bottom: 5em;
-  padding-left: 7.5em;
-  padding-right: 7.5em;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
 .cards li {
@@ -610,7 +610,7 @@ h4 {
 
   footer ul li:hover {
     border: 5px solid #FF809B;
-    padding: 1em;
+    padding: 0.5em;
   }
 
   .logowords {
@@ -673,13 +673,9 @@ nav ul li a:hover {
   color: #FF809B;
 }
 
-/* MOBILE HERO BANNER BEGINS HERE */
+/* MOBILE HOME PAGE BEGINS HERE */
 
 .hero-banner {
-  height: 25vh;
-}
-
-.hero-banner-proj {
   height: 25vh;
 }
 
@@ -688,8 +684,6 @@ nav ul li a:hover {
   font-size: 1.5em;
   line-height: 2em;
 }
-
-/* MOBILE HOME PAGE BEGINS HERE */
 
 .founder {
   padding-top: 2.5rem;
@@ -808,7 +802,72 @@ h5 {
 
 /* MOBILE MERCH PAGE BEGINS HERE */
 
+.hero-banner-merch {
+  height: 25vh;
+}
 
+.hero-text-merch {
+  transform: translate(-50%, -180%);
+  font-size: 1em;
+}
+
+.purchaseables ul {
+  display: grid;
+  grid-template-columns: 3fr 3fr 2fr;
+  gap: 2em 1.5em;
+  padding: 2em;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.purchaseables img {
+  max-width: 5rem;
+  max-height: 5rem;
+  box-shadow: 5px 5px 1px #FFD7DF;
+}
+
+.purchaseables ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.store ul li {
+  list-style-type: none;
+  margin: auto;
+}
+
+h4 {
+  font-family: stymie,serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #DB404B;
+  font-size: 1em;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+.store ul li a {
+  font-family: stymie,serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  color: #FFFF;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 3px solid #FF809B;
+  background: #FF809B;
+  border-radius: 1em;
+  transition: all .2s ease-in-out;
+}
+
+.store ul li a:hover {
+  background-color: #FFFF;
+  border: 3px solid #FF809B;
+  color: #FF809B;
+}
 
 /* MOBILE FOOTER BEGINS HERE */
 
