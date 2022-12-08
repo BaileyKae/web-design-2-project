@@ -3,7 +3,6 @@
 }
 
 @media only screen and (max-width: 1280px){
-
 }
 body {
   background-image: url("../images/repeatbkg.svg");
@@ -66,14 +65,14 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-text {
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -100%);
   color: white;
   font-size: 2.5em;
 }
@@ -165,14 +164,14 @@ h3 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-text-proj {
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -100%);
   color: white;
   font-size: 2.5em;
 }
@@ -243,14 +242,14 @@ h3 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-text-merch {
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -100%);
   color: white;
   font-size: 2.5em;
 }
@@ -286,9 +285,8 @@ h5 {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr;
   gap: 7em 3em;
-  padding: 10em;
-  padding-left: 15rem;
-  padding-right: 15rem;
+  padding: 10em 0;
+  margin: 0 auto;
 }
 
 .purchaseables img {
@@ -419,7 +417,7 @@ nav ul {
 }
 
 nav ul li a {
-  font-size: 1em;
+  font-size: 0.75em;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   padding-left: 1rem;
@@ -441,24 +439,15 @@ nav ul li a {
 }
 
 .hero-text {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -220%);
   font-size: 1.25em;
 }
 
 .hero-text-proj {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -250%);
   font-size: 1.25em;
 }
 
 .hero-text-merch {
   font-size: 1.25em;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -250%);
 }
 
 /* TABLET HOME PAGE BEGINS HERE */
@@ -545,16 +534,24 @@ h5 {
 /* TABLET MERCH PAGE BEGINS HERE */
 
 h5 {
-  font-size: 5em;
+  font-size: 4em;
   padding-top: 5rem;
 }
 
 .purchaseables ul {
+  grid-template-columns: 1fr;
   gap: 3.5em 1.5em;
   padding: 5em;
   padding-left: 7.5rem;
   padding-right: 7.5rem;
 }
+
+/*display: grid;
+grid-template-columns: 2fr 2fr 2fr 2fr;
+gap: 7em 3em;
+padding: 10em;
+padding-left: 15rem;
+padding-right: 15rem;*/
 
 .purchaseables img {
   max-width: 15rem;
@@ -680,7 +677,6 @@ nav ul li a:hover {
 }
 
 .hero-text {
-  transform: translate(-50%, -150%);
   font-size: 1.5em;
   line-height: 2em;
 }
@@ -747,7 +743,6 @@ h3 {
 }
 
 .hero-text-proj {
-  transform: translate(-50%, -180%);
   font-size: 1em;
 }
 
@@ -807,7 +802,6 @@ h5 {
 }
 
 .hero-text-merch {
-  transform: translate(-50%, -180%);
   font-size: 1em;
 }
 
